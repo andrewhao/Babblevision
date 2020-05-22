@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86C20FFC247898DE00ABAEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C20FFB247898DE00ABAEEE /* AppDelegate.swift */; };
+		86C20FFE247898DE00ABAEEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C20FFD247898DE00ABAEEE /* SceneDelegate.swift */; };
+		86C21001247898DE00ABAEEE /* Babblevision.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86C20FFF247898DE00ABAEEE /* Babblevision.xcdatamodeld */; };
+		86C21003247898DE00ABAEEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C21002247898DE00ABAEEE /* ContentView.swift */; };
+		86C21005247898E000ABAEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C21004247898E000ABAEEE /* Assets.xcassets */; };
+		86C21008247898E000ABAEEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C21007247898E000ABAEEE /* Preview Assets.xcassets */; };
+		86C2100B247898E000ABAEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C21009247898E000ABAEEE /* LaunchScreen.storyboard */; };
+		86C21016247898E000ABAEEE /* BabblevisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C21015247898E000ABAEEE /* BabblevisionTests.swift */; };
+		86C21021247898E100ABAEEE /* BabblevisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C21020247898E100ABAEEE /* BabblevisionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86C21012247898E000ABAEEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C20FF0247898DE00ABAEEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C20FF7247898DE00ABAEEE;
+			remoteInfo = Babblevision;
+		};
+		86C2101D247898E100ABAEEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C20FF0247898DE00ABAEEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C20FF7247898DE00ABAEEE;
+			remoteInfo = Babblevision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86C20FF8247898DE00ABAEEE /* Babblevision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babblevision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C20FFB247898DE00ABAEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86C20FFD247898DE00ABAEEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86C21000247898DE00ABAEEE /* Babblevision.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Babblevision.xcdatamodel; sourceTree = "<group>"; };
+		86C21002247898DE00ABAEEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86C21004247898E000ABAEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86C21007247898E000ABAEEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86C2100A247898E000ABAEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86C2100C247898E000ABAEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C21011247898E000ABAEEE /* BabblevisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabblevisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C21015247898E000ABAEEE /* BabblevisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabblevisionTests.swift; sourceTree = "<group>"; };
+		86C21017247898E000ABAEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C2101C247898E100ABAEEE /* BabblevisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabblevisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C21020247898E100ABAEEE /* BabblevisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabblevisionUITests.swift; sourceTree = "<group>"; };
+		86C21022247898E100ABAEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C20FF5247898DE00ABAEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C2100E247898E000ABAEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C21019247898E100ABAEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86C20FEF247898DE00ABAEEE = {
+			isa = PBXGroup;
+			children = (
+				86C20FFA247898DE00ABAEEE /* Babblevision */,
+				86C21014247898E000ABAEEE /* BabblevisionTests */,
+				86C2101F247898E100ABAEEE /* BabblevisionUITests */,
+				86C20FF9247898DE00ABAEEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C20FF9247898DE00ABAEEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C20FF8247898DE00ABAEEE /* Babblevision.app */,
+				86C21011247898E000ABAEEE /* BabblevisionTests.xctest */,
+				86C2101C247898E100ABAEEE /* BabblevisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C20FFA247898DE00ABAEEE /* Babblevision */ = {
+			isa = PBXGroup;
+			children = (
+				86C20FFB247898DE00ABAEEE /* AppDelegate.swift */,
+				86C20FFD247898DE00ABAEEE /* SceneDelegate.swift */,
+				86C21002247898DE00ABAEEE /* ContentView.swift */,
+				86C21004247898E000ABAEEE /* Assets.xcassets */,
+				86C21009247898E000ABAEEE /* LaunchScreen.storyboard */,
+				86C2100C247898E000ABAEEE /* Info.plist */,
+				86C20FFF247898DE00ABAEEE /* Babblevision.xcdatamodeld */,
+				86C21006247898E000ABAEEE /* Preview Content */,
+			);
+			path = Babblevision;
+			sourceTree = "<group>";
+		};
+		86C21006247898E000ABAEEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86C21007247898E000ABAEEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86C21014247898E000ABAEEE /* BabblevisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				86C21015247898E000ABAEEE /* BabblevisionTests.swift */,
+				86C21017247898E000ABAEEE /* Info.plist */,
+			);
+			path = BabblevisionTests;
+			sourceTree = "<group>";
+		};
+		86C2101F247898E100ABAEEE /* BabblevisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86C21020247898E100ABAEEE /* BabblevisionUITests.swift */,
+				86C21022247898E100ABAEEE /* Info.plist */,
+			);
+			path = BabblevisionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86C20FF7247898DE00ABAEEE /* Babblevision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C21025247898E100ABAEEE /* Build configuration list for PBXNativeTarget "Babblevision" */;
+			buildPhases = (
+				86C20FF4247898DE00ABAEEE /* Sources */,
+				86C20FF5247898DE00ABAEEE /* Frameworks */,
+				86C20FF6247898DE00ABAEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Babblevision;
+			productName = Babblevision;
+			productReference = 86C20FF8247898DE00ABAEEE /* Babblevision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86C21010247898E000ABAEEE /* BabblevisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C21028247898E100ABAEEE /* Build configuration list for PBXNativeTarget "BabblevisionTests" */;
+			buildPhases = (
+				86C2100D247898E000ABAEEE /* Sources */,
+				86C2100E247898E000ABAEEE /* Frameworks */,
+				86C2100F247898E000ABAEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C21013247898E000ABAEEE /* PBXTargetDependency */,
+			);
+			name = BabblevisionTests;
+			productName = BabblevisionTests;
+			productReference = 86C21011247898E000ABAEEE /* BabblevisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86C2101B247898E100ABAEEE /* BabblevisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C2102B247898E100ABAEEE /* Build configuration list for PBXNativeTarget "BabblevisionUITests" */;
+			buildPhases = (
+				86C21018247898E100ABAEEE /* Sources */,
+				86C21019247898E100ABAEEE /* Frameworks */,
+				86C2101A247898E100ABAEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C2101E247898E100ABAEEE /* PBXTargetDependency */,
+			);
+			name = BabblevisionUITests;
+			productName = BabblevisionUITests;
+			productReference = 86C2101C247898E100ABAEEE /* BabblevisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C20FF0247898DE00ABAEEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = g9Labs;
+				TargetAttributes = {
+					86C20FF7247898DE00ABAEEE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					86C21010247898E000ABAEEE = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 86C20FF7247898DE00ABAEEE;
+					};
+					86C2101B247898E100ABAEEE = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 86C20FF7247898DE00ABAEEE;
+					};
+				};
+			};
+			buildConfigurationList = 86C20FF3247898DE00ABAEEE /* Build configuration list for PBXProject "Babblevision" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86C20FEF247898DE00ABAEEE;
+			productRefGroup = 86C20FF9247898DE00ABAEEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C20FF7247898DE00ABAEEE /* Babblevision */,
+				86C21010247898E000ABAEEE /* BabblevisionTests */,
+				86C2101B247898E100ABAEEE /* BabblevisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86C20FF6247898DE00ABAEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C2100B247898E000ABAEEE /* LaunchScreen.storyboard in Resources */,
+				86C21008247898E000ABAEEE /* Preview Assets.xcassets in Resources */,
+				86C21005247898E000ABAEEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C2100F247898E000ABAEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C2101A247898E100ABAEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86C20FF4247898DE00ABAEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C20FFC247898DE00ABAEEE /* AppDelegate.swift in Sources */,
+				86C21001247898DE00ABAEEE /* Babblevision.xcdatamodeld in Sources */,
+				86C21003247898DE00ABAEEE /* ContentView.swift in Sources */,
+				86C20FFE247898DE00ABAEEE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C2100D247898E000ABAEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C21016247898E000ABAEEE /* BabblevisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C21018247898E100ABAEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C21021247898E100ABAEEE /* BabblevisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86C21013247898E000ABAEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C20FF7247898DE00ABAEEE /* Babblevision */;
+			targetProxy = 86C21012247898E000ABAEEE /* PBXContainerItemProxy */;
+		};
+		86C2101E247898E100ABAEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C20FF7247898DE00ABAEEE /* Babblevision */;
+			targetProxy = 86C2101D247898E100ABAEEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86C21009247898E000ABAEEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C2100A247898E000ABAEEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86C21023247898E100ABAEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86C21024247898E100ABAEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C21026247898E100ABAEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Babblevision/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Babblevision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g9labs.Babblevision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86C21027247898E100ABAEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Babblevision/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Babblevision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g9labs.Babblevision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86C21029247898E100ABAEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabblevisionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g9labs.BabblevisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babblevision.app/Babblevision";
+			};
+			name = Debug;
+		};
+		86C2102A247898E100ABAEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabblevisionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g9labs.BabblevisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babblevision.app/Babblevision";
+			};
+			name = Release;
+		};
+		86C2102C247898E100ABAEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabblevisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g9labs.BabblevisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Babblevision;
+			};
+			name = Debug;
+		};
+		86C2102D247898E100ABAEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BabblevisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = g9labs.BabblevisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Babblevision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86C20FF3247898DE00ABAEEE /* Build configuration list for PBXProject "Babblevision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C21023247898E100ABAEEE /* Debug */,
+				86C21024247898E100ABAEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C21025247898E100ABAEEE /* Build configuration list for PBXNativeTarget "Babblevision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C21026247898E100ABAEEE /* Debug */,
+				86C21027247898E100ABAEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C21028247898E100ABAEEE /* Build configuration list for PBXNativeTarget "BabblevisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C21029247898E100ABAEEE /* Debug */,
+				86C2102A247898E100ABAEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C2102B247898E100ABAEEE /* Build configuration list for PBXNativeTarget "BabblevisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C2102C247898E100ABAEEE /* Debug */,
+				86C2102D247898E100ABAEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86C20FFF247898DE00ABAEEE /* Babblevision.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86C21000247898DE00ABAEEE /* Babblevision.xcdatamodel */,
+			);
+			currentVersion = 86C21000247898DE00ABAEEE /* Babblevision.xcdatamodel */;
+			path = Babblevision.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86C20FF0247898DE00ABAEEE /* Project object */;
+}
